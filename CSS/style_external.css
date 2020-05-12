@@ -1,0 +1,39 @@
+/****************************Tag selector   selector{ property : type ; } ************************/
+/* Id are not preferred as unlike Class there cannot be multiple ids for the same element ,Also same class name can
+be applied to different elements but there can be just one Id for one element*/
+body {
+  background-color: powderblue;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 5px;
+}
+
+ img:hover {         /*already for img element we have defined class selector hence hover can be used here */
+    background-color: Gold ;
+  }
+h3 {
+  color: #66BFBF;
+}
+
+h1 {
+  color: #66BFBF
+}
+
+/************************************id/class selector >>>>> Tag selector ******************/
+/************************************Class selector ******* .class { property : type ;}******************/
+.Myimage {
+  background-color: Pink;
+}
+
+.circular {
+  border-radius: 0;
+}
+
+/************************************ID selector ******* # Id { property : type ;}******************/
+#heading {
+  color: blue;
+}
